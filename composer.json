@@ -1,0 +1,20 @@
+{
+  "name": "haokaiyang/my-package",
+  "description": "say hello to somebody",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "haokaiyang",
+      "email": "kaiyanghao@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Demo\\": "src"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "php": "^7.1.3"
+  }
+}
